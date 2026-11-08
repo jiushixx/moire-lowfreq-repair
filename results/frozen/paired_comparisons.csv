@@ -1,0 +1,6 @@
+domain,method,reference,mean_gain,median_gain,wins,images
+DCID,old_band,original,-0.024292588757648215,-0.028955351641817728,5,20
+DCID,original_mean_anchor,original,4.90228892520746,4.136379218847532,19,20
+DCID,DCID_spatial100,original_mean_anchor,0.22485595479410742,0.06608404422396319,19,20
+UHDM,old_band,original,0.14484156560508038,0.06186548741528419,14,20
+UHDM,original_mean_anchor,original,-2.410296508493611,-2.063919033138852,4,20

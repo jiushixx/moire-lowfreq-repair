@@ -1,0 +1,34 @@
+{
+  "frozen_models": {
+    "selection": "fixed before new test evaluation",
+    "band_sha256": "f453ca0621ed3b246f6c4fcb700605ae6d90c61ecdcd8666450896a27a60ba31",
+    "DCID_100_sha256": "bf58831a9c52723096ff054698a3c1f422f29ae81adbfe714afa2f2f28001743",
+    "DCID_checkpoint_step": 100,
+    "primary": {
+      "UHDM": "old_band",
+      "DCID": "original_mean_anchor"
+    },
+    "secondary": "DCID_spatial100"
+  },
+  "seed": 20261108,
+  "counts": {
+    "UHDM": 20,
+    "DCID": 20
+  },
+  "HF_revision": "51c674aa3f71c4cbbddb5cfcba9fbe3536eb0722",
+  "HF_subdir": "test/iphone_1",
+  "region": 768,
+  "train": false,
+  "primary_methods": {
+    "UHDM": "old_band vs original",
+    "DCID": "original_mean_anchor vs original"
+  },
+  "secondary": "DCID development-selected fixed100 spatial vs mean anchor; no test-based model selection",
+  "precision": "same-view center768; fixed predictions float16 -> float32 as development cache",
+  "limitations": "sampled author test subsets, not official full-image score; exact hashes do not prove scene/content independence",
+  "actual_backbone": {
+    "repo_commit": "fa70a92d3d4f35d5c4e3fa7a54e3b2e5b995f1cd",
+    "weight_sha256": "254235cd25f90a3f1785885385dc6cb3f2178e053291ab53d1943bd7c2f7de65",
+    "weight_path": "/kaggle/working/frozen_moire_test/official/uhdm_checkpoint.pth"
+  }
+}

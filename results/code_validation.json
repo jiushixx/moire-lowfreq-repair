@@ -1,0 +1,7 @@
+{
+  "cpu_checks": "passed",
+  "python_files": 16,
+  "checkpoint_equivalence": "bitwise equal on synthetic CPU inputs",
+  "cuda_full_rerun": false,
+  "original_kaggle_run": "completed before refactoring"
+}

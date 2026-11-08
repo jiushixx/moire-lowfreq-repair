@@ -1,0 +1,11 @@
+{
+  "selection": "fixed before new test evaluation",
+  "band_sha256": "f453ca0621ed3b246f6c4fcb700605ae6d90c61ecdcd8666450896a27a60ba31",
+  "DCID_100_sha256": "bf58831a9c52723096ff054698a3c1f422f29ae81adbfe714afa2f2f28001743",
+  "DCID_checkpoint_step": 100,
+  "primary": {
+    "UHDM": "old_band",
+    "DCID": "original_mean_anchor"
+  },
+  "secondary": "DCID_spatial100"
+}

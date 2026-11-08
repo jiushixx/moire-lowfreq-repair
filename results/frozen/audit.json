@@ -1,0 +1,5 @@
+{
+  "issues": [],
+  "pairs": 40,
+  "limits": "hashes rule out exact files only, not same content across views. Author test split; scene independence not established."
+}
