@@ -1,0 +1,9 @@
+device,metric,method,reference,mean_gain,median_gain,wins,images
+test/p40_1,psnr,original_mean_anchor,original,6.678859383021281,6.274060842373842,20,20
+test/p40_1,psnr,DCID_spatial100,original_mean_anchor,-0.011217938786901093,0.08741169844983787,14,20
+test/p40_1,ssim,original_mean_anchor,original,0.025646039843559253,0.030726134777069092,15,20
+test/p40_1,ssim,DCID_spatial100,original_mean_anchor,-0.0001530230045318326,0.0002048015594482422,13,20
+test/xiaomi_1,psnr,original_mean_anchor,original,1.1268252064096367,1.2401395758103853,13,20
+test/xiaomi_1,psnr,DCID_spatial100,original_mean_anchor,0.005962042871008144,-0.03800087285946141,7,20
+test/xiaomi_1,ssim,original_mean_anchor,original,0.0008018612861633523,0.0006985664367675226,11,20
+test/xiaomi_1,ssim,DCID_spatial100,original_mean_anchor,0.00011913776397703412,-2.9802322387695312e-06,9,20

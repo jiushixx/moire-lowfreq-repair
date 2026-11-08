@@ -25,3 +25,9 @@ python scripts/train_source_fusion.py --uhdm-root DATA_ROOT --fusion-bundle FUSI
 ```
 
 也可导入`notebooks/01_frozen_evaluation.ipynb`或`02_train_repair.ipynb`，添加相应数据与权重后Run All。测试脚本按需获取DCID测试子集；训练脚本可通过`CACHE_DIR`复用预测缓存。默认输出位于`/kaggle/working/`。
+
+## 三设备训练与测试
+
+Kaggle使用`notebooks/03_cross_device_transfer.ipynb`执行迁移测试，使用`04_multidevice_training.ipynb`训练共享修复头。两者均只需添加`moire_frozen_test_models.zip`并开启GPU与Internet。
+
+命令行分别运行`python scripts/run_transfer.py`或`python scripts/run_balanced.py`，配置位于`configs/multidevice_*.json`。训练脚本自动下载配对图像、缓存冻结预测、训练500步、按验证结果选权重并评价固定测试集。

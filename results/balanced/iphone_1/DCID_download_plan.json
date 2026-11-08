@@ -1,0 +1,89 @@
+{
+  "repo": "Mrduckk/DCID",
+  "revision": "51c674aa3f71c4cbbddb5cfcba9fbe3536eb0722",
+  "subdir": "test/iphone_1",
+  "seed": 20261108,
+  "bytes": 78473277,
+  "pairs": [
+    {
+      "input": "test/iphone_1/0172_m.jpg",
+      "target": "test/iphone_1/0172_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0174_m.jpg",
+      "target": "test/iphone_1/0174_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0127_m.jpg",
+      "target": "test/iphone_1/0127_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0064_m.jpg",
+      "target": "test/iphone_1/0064_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0162_m.jpg",
+      "target": "test/iphone_1/0162_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0017_m.jpg",
+      "target": "test/iphone_1/0017_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0142_m.jpg",
+      "target": "test/iphone_1/0142_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0198_m.jpg",
+      "target": "test/iphone_1/0198_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0116_m.jpg",
+      "target": "test/iphone_1/0116_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0129_m.jpg",
+      "target": "test/iphone_1/0129_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0093_m.jpg",
+      "target": "test/iphone_1/0093_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0055_m.jpg",
+      "target": "test/iphone_1/0055_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0098_m.jpg",
+      "target": "test/iphone_1/0098_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0159_m.jpg",
+      "target": "test/iphone_1/0159_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0032_m.jpg",
+      "target": "test/iphone_1/0032_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0084_m.jpg",
+      "target": "test/iphone_1/0084_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0023_m.jpg",
+      "target": "test/iphone_1/0023_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0183_m.jpg",
+      "target": "test/iphone_1/0183_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0178_m.jpg",
+      "target": "test/iphone_1/0178_gt.jpg"
+    },
+    {
+      "input": "test/iphone_1/0044_m.jpg",
+      "target": "test/iphone_1/0044_gt.jpg"
+    }
+  ]
+}

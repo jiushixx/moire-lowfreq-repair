@@ -1,0 +1,11 @@
+{
+  "requested": [
+    "xiaomi",
+    "p40"
+  ],
+  "completed": [
+    "xiaomi_20261108_123644",
+    "p40_20261108_124049"
+  ],
+  "failures": []
+}

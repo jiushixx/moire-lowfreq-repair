@@ -1,50 +1,47 @@
 # 轻量去摩尔纹：多尺度融合与空间低频修复
 
-基于冻结 ESDNet 的图像去摩尔纹项目，结合多尺度分频融合与小样本空间颜色修复，在 UHDM 和 DCID 上开展实验。
+基于冻结 ESDNet，研究 UHDM 多尺度分频融合，以及 DCID 三设备上的空间低频颜色修复。
 
 ## 方法
 
-- **多尺度分频融合**：融合0.5、0.75、1.0尺度预测，分别学习低频与高频残差的融合权重，用于UHDM。
-- **均值校正**：利用输入与预测的RGB均值差校正整体色偏，作为DCID修复基线。
-- **空间低频修复**：约5.99万参数的网络在96×96网格上预测RGB修正场，上采样后加到校正结果上。主干保持冻结，修复头使用MSE与TV损失训练。
+- UHDM：融合0.5、0.75、1.0尺度预测，为低频和高频残差分别学习权重。
+- DCID：先利用输入与预测的RGB均值差校正整体色偏，再用59,883参数的网络预测96×96空间修正场。
+- 三设备训练：iPhone、小米、P40各12对训练、8对验证，每个训练批次包含三种设备，主干保持冻结。
 
 ## 测试结果
 
-从作者test目录固定抽取UHDM、DCID各20对图像，评估原分辨率中心768×768区域；DCID取自`test/iphone_1`。指标为逐图平均值，模型在测试前确定。
+UHDM固定20对，DCID三设备各固定20对，均评价原分辨率中心768×768区域。表中为逐图平均PSNR，单位dB。
 
-| 数据 | 方法 | PSNR ↑ | SSIM ↑ |
-|---|---|---:|---:|
-| UHDM | ESDNet | 21.7950 | 0.762888 |
-| UHDM | 分频融合 | **21.9399** | **0.764870** |
-| DCID | ESDNet | 18.7479 | 0.815882 |
-| DCID | 均值校正 | 23.6502 | 0.831743 |
-| DCID | 均值校正 + 空间修复 | **23.8751** | **0.832569** |
+| 数据 | ESDNet | 均值校正 | iPhone训练修复头 | 三设备训练修复头 |
+|---|---:|---:|---:|---:|
+| DCID iPhone | 18.7479 | 23.6502 | 23.8751 | **24.0994** |
+| DCID 小米 | 19.6945 | 20.8213 | 20.8273 | **20.9895** |
+| DCID P40 | 16.5252 | 23.2040 | 23.1928 | **23.6206** |
+| 三设备平均 | 18.3225 | 22.5585 | 22.6317 | **22.9032** |
 
-UHDM分频融合提升0.1448 dB；DCID空间修复在均值校正之上提升0.2249 dB。
+三设备训练修复头相对均值校正平均提高0.3446 dB。iPhone与P40各17/20张改善，小米8/20张改善。小米的平均SSIM由0.848148变为0.848074，逐图表现见结果记录。
 
-## 项目结构
+UHDM分频融合的PSNR由21.7950提高至**21.9399 dB**，SSIM由0.762888提高至**0.764870**。
+
+## 代码与运行
 
 ```text
-src/moire_project/   模型、训练与评价
+src/moire_project/   主干接口、融合、空间修复、三设备训练
 configs/             实验配置
-scripts/             运行入口
-notebooks/           Kaggle Notebook
-experiments/         源域融合、对照与探索实验
-results/             开发及测试结果
-models/              权重说明
-tests/               模型接口测试
+scripts/             命令行入口
+notebooks/           Kaggle Run All
+experiments/         对照与前期探索
+results/             开发、初始测试、跨设备与均衡训练结果
+models/              修复头权重与模型说明
 ```
 
-## 运行
-
-安装依赖，在配置文件中填写数据和权重路径：
+Kaggle导入 `notebooks/04_multidevice_training.ipynb`，添加 `moire_frozen_test_models.zip`，开启GPU与Internet后Run All。数据按需从Hugging Face获取。
 
 ```bash
 pip install -e .
-python scripts/run.py evaluate --config configs/frozen_test.json
-python scripts/run.py train-repair --config configs/train_repair.json
+python scripts/run_balanced.py --config configs/multidevice_train.json
 ```
 
-Kaggle可直接使用`notebooks/`中的Notebook。数据与权重单独准备，见[运行说明](docs/REPRODUCE.md)。
+[实验设计](docs/EXPERIMENTS.md) · [结果分析](docs/MULTIDEVICE_RESULTS.md) · [运行说明](docs/REPRODUCE.md) · [来源与致谢](THIRD_PARTY.md)
 
-[实验设计](docs/EXPERIMENTS.md) · [来源与致谢](THIRD_PARTY.md)
+[完整项目报告](docs/项目报告.docx)

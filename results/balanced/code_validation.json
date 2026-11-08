@@ -1,0 +1,11 @@
+{
+  "python_files": 20,
+  "notebooks": 8,
+  "syntax": "passed",
+  "checkpoint_step": 300,
+  "strict_load": true,
+  "parameters": 59883,
+  "cpu_forward_backward": "passed",
+  "hf_api_mocked_in_local_check": true,
+  "cloud_training": "completed result archive supplied by user"
+}

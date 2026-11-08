@@ -1,0 +1,15 @@
+{
+  "test_pairs": 60,
+  "test_metric_rows": 240,
+  "selection_step": 300,
+  "selection_matches_validation_max": true,
+  "test_ids_match_prior": true,
+  "no_exact_train_test_overlap": true,
+  "recomputed_summaries": true,
+  "macro_psnr": {
+    "original": 18.322529388825288,
+    "original_mean_anchor": 22.558520921951008,
+    "iphone_spatial100": 22.631720914854807,
+    "balanced_spatial": 22.903169096300044
+  }
+}

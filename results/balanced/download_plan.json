@@ -1,0 +1,462 @@
+[
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0039",
+    "split": "train",
+    "input": "train/iphone_1/part1/0039_m.jpg",
+    "target": "train/iphone_1/part1/0039_gt.jpg",
+    "expected_x": "b3e02a916211f93608f1e356fc859bbb6c7ee7b5b630015652ff7aa07511d387",
+    "expected_gt": "48a1ed4862f7d475a7ff990602ae5d392f3267680b56612af4661cff05db315b"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0012",
+    "split": "train",
+    "input": "train/iphone_1/part1/0012_m.jpg",
+    "target": "train/iphone_1/part1/0012_gt.jpg",
+    "expected_x": "c4bf5c774b667905aa115d33647d507052459e3a06a65a60ec64497835b2f926",
+    "expected_gt": "0ac3f2260561de55ae3bcb37107350ba1966f3314097acdf23cb8928d2d732a2"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0002",
+    "split": "train",
+    "input": "train/iphone_1/part1/0002_m.jpg",
+    "target": "train/iphone_1/part1/0002_gt.jpg",
+    "expected_x": "706127f89b12e6686ad1425ce5fdfb5949ac4a82db3be1409bec06dd98c79a82",
+    "expected_gt": "e94af1737e9d4ad5b7f2fdf3e55f266f916aca33716c41af30b7da7d7b87d854"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0006",
+    "split": "train",
+    "input": "train/iphone_1/part1/0006_m.jpg",
+    "target": "train/iphone_1/part1/0006_gt.jpg",
+    "expected_x": "6e5046bea6af95ef3695b18809aa0044599d7666f2aa0c049a31cc7183a43a54",
+    "expected_gt": "15c6ce2e917381a4d4b02e421615c8015585de0d95c14fe936d917c7fa035536"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0115",
+    "split": "train",
+    "input": "train/iphone_1/part1/0115_m.jpg",
+    "target": "train/iphone_1/part1/0115_gt.jpg",
+    "expected_x": "f9a43ed3d465ed7eb4f40d0fe267f41717f4ac89e75980fd090f41407505ee04",
+    "expected_gt": "3b10cfdd4f8d335a03b1fcad73224bbf26d568d28fb9ae8dd9d7641c7e3edf20"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0038",
+    "split": "train",
+    "input": "train/iphone_1/part1/0038_m.jpg",
+    "target": "train/iphone_1/part1/0038_gt.jpg",
+    "expected_x": "badafd92ec7cee255cedcab2d83d8648078a73607d46ab310b895eb697d283ba",
+    "expected_gt": "229e757c654e76eeed40a704df854aa4cdba82cf54555912aaf11885e7d2ccf8"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0078",
+    "split": "train",
+    "input": "train/iphone_1/part1/0078_m.jpg",
+    "target": "train/iphone_1/part1/0078_gt.jpg",
+    "expected_x": "5a3e187cf454988b58e5293554d276ba329d203f0b0ddb35ad318bf4b19d318b",
+    "expected_gt": "4cc563a868b38950fb22193d519518bd2d8ecb6f7acd8ba7586b5c824afe66c9"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0059",
+    "split": "train",
+    "input": "train/iphone_1/part1/0059_m.jpg",
+    "target": "train/iphone_1/part1/0059_gt.jpg",
+    "expected_x": "d7a1519254831f341ee4c6c607a5726f4e6754ee2a7772b2156864f9fe7445b8",
+    "expected_gt": "e2e6a81091fcd5ffa98e00da994471cc72f0b5583aa63af95bc14909fc2689e4"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0170",
+    "split": "train",
+    "input": "train/iphone_1/part1/0170_m.jpg",
+    "target": "train/iphone_1/part1/0170_gt.jpg",
+    "expected_x": "5abc9ffbf20bd72a1b5c0ab15598d57084ad1c46045ae1e287b784a3b9d94519",
+    "expected_gt": "163dfa2701687d5dc235bb1feffc40f5daa131175bade79b3f962c428f52e111"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0041",
+    "split": "train",
+    "input": "train/iphone_1/part1/0041_m.jpg",
+    "target": "train/iphone_1/part1/0041_gt.jpg",
+    "expected_x": "799f11ce38b646d80c54517bb98318d1319ad7e81de98852c8024842050d4b48",
+    "expected_gt": "99d4b9442f0d02eaa8054ac58783fd960529737dce64cf5f6364841e78e07f8b"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0061",
+    "split": "train",
+    "input": "train/iphone_1/part1/0061_m.jpg",
+    "target": "train/iphone_1/part1/0061_gt.jpg",
+    "expected_x": "0746bec4f2d6d4a8521e0f6ee8305c5701d724c8cc0e6bafa7bd6c64fa84d2c9",
+    "expected_gt": "10a1613268bdc570aeb35a42dc5cb9f34dd09e40c3ec8486805c1dd96af0040e"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0106",
+    "split": "train",
+    "input": "train/iphone_1/part1/0106_m.jpg",
+    "target": "train/iphone_1/part1/0106_gt.jpg",
+    "expected_x": "ff5ee9e632650a488645c21cb1b18214b81200dc2c7481e917e32e3cf644a11f",
+    "expected_gt": "7c08a109f64bc5910ab7ba018c9f6f90d0e46fa99e64be623e2dfce22f48a1a1"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0068",
+    "split": "val",
+    "input": "train/iphone_1/part1/0068_m.jpg",
+    "target": "train/iphone_1/part1/0068_gt.jpg",
+    "expected_x": "a28074541d2387a3c3f6e338aa86c3c79dbfd3f60435e6e3a96a529bfdf05e13",
+    "expected_gt": "0e02990a99af71a4a53e1d35fdb6685adc2f258bc6f8286f75b1f357ce2f75a5"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0136",
+    "split": "val",
+    "input": "train/iphone_1/part1/0136_m.jpg",
+    "target": "train/iphone_1/part1/0136_gt.jpg",
+    "expected_x": "bc07104d714ca1aa80c8afad0039f7a5ab577168a5101f8e875b437d3b12f93a",
+    "expected_gt": "3dc49188649eaf6dc68fc88598053dc107d2f870276841ed8468088677b922db"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0135",
+    "split": "val",
+    "input": "train/iphone_1/part1/0135_m.jpg",
+    "target": "train/iphone_1/part1/0135_gt.jpg",
+    "expected_x": "f2cd429b1c4765ffc3259e9cb1e307888adfe40370d4551dd0c92dc34a97382c",
+    "expected_gt": "ba9cc52b7db6ae30d2f10ff1b951d650d5af15e1bf6f788348a9ddaaa9378cc4"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0199",
+    "split": "val",
+    "input": "train/iphone_1/part1/0199_m.jpg",
+    "target": "train/iphone_1/part1/0199_gt.jpg",
+    "expected_x": "3808b9d294a57814f5745a03bbc77303e298303839f0680e2892f606103d1cb0",
+    "expected_gt": "08bc5b0cacc750734aa6c4d21a14f1c2504ab2a80dac718419b07554f86c5313"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0167",
+    "split": "val",
+    "input": "train/iphone_1/part1/0167_m.jpg",
+    "target": "train/iphone_1/part1/0167_gt.jpg",
+    "expected_x": "c45a9269b09b2ba186e8258c986762b86fd4268518dff227c245f6d7de330fdd",
+    "expected_gt": "a6022d950fb74e0ad621b3e6f2bc6bba676a9b2dd0f57ddf86bc2b524a1609d1"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0143",
+    "split": "val",
+    "input": "train/iphone_1/part1/0143_m.jpg",
+    "target": "train/iphone_1/part1/0143_gt.jpg",
+    "expected_x": "cc7f8b66d5b4c6752dd7901e81d5ad910e97c0812d5a353319509de6ebeb5aac",
+    "expected_gt": "72de8c094d062915869091addded1b95854137f65c7cc34242d6dfe94080b177"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0072",
+    "split": "val",
+    "input": "train/iphone_1/part1/0072_m.jpg",
+    "target": "train/iphone_1/part1/0072_gt.jpg",
+    "expected_x": "a4ae6b43368f8c3cf5485207b3e388e3c3762ab4bfabe52633c44de26e6cef7d",
+    "expected_gt": "d159fa8fce6885ef49827c469b43c4f675728e7bc8c4c64557fb3ed7751b86bc"
+  },
+  {
+    "device": "iphone_1",
+    "id": "DCID/train/iphone_1/part1/0017",
+    "split": "val",
+    "input": "train/iphone_1/part1/0017_m.jpg",
+    "target": "train/iphone_1/part1/0017_gt.jpg",
+    "expected_x": "648c6a23fda27ce0a39556e55f4a7668044419933379b008db9b40a6edacd56f",
+    "expected_gt": "e952ae03888297f3d9a9d52bdad43adeed9acff66a33ffc7ecde8b940a7fb734"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0169",
+    "split": "train",
+    "input": "train/xiaomi_1/part1/0169_m.jpg",
+    "target": "train/xiaomi_1/part1/0169_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0175",
+    "split": "train",
+    "input": "train/xiaomi_1/part1/0175_m.jpg",
+    "target": "train/xiaomi_1/part1/0175_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0104",
+    "split": "train",
+    "input": "train/xiaomi_1/part1/0104_m.jpg",
+    "target": "train/xiaomi_1/part1/0104_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0075",
+    "split": "train",
+    "input": "train/xiaomi_1/part1/0075_m.jpg",
+    "target": "train/xiaomi_1/part1/0075_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0170",
+    "split": "train",
+    "input": "train/xiaomi_1/part1/0170_m.jpg",
+    "target": "train/xiaomi_1/part1/0170_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0211",
+    "split": "train",
+    "input": "train/xiaomi_1/part1/0211_m.jpg",
+    "target": "train/xiaomi_1/part1/0211_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0086",
+    "split": "train",
+    "input": "train/xiaomi_1/part1/0086_m.jpg",
+    "target": "train/xiaomi_1/part1/0086_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0028",
+    "split": "train",
+    "input": "train/xiaomi_1/part1/0028_m.jpg",
+    "target": "train/xiaomi_1/part1/0028_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0197",
+    "split": "train",
+    "input": "train/xiaomi_1/part1/0197_m.jpg",
+    "target": "train/xiaomi_1/part1/0197_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0163",
+    "split": "train",
+    "input": "train/xiaomi_1/part1/0163_m.jpg",
+    "target": "train/xiaomi_1/part1/0163_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0120",
+    "split": "train",
+    "input": "train/xiaomi_1/part1/0120_m.jpg",
+    "target": "train/xiaomi_1/part1/0120_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0020",
+    "split": "train",
+    "input": "train/xiaomi_1/part1/0020_m.jpg",
+    "target": "train/xiaomi_1/part1/0020_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0043",
+    "split": "val",
+    "input": "train/xiaomi_1/part1/0043_m.jpg",
+    "target": "train/xiaomi_1/part1/0043_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0077",
+    "split": "val",
+    "input": "train/xiaomi_1/part1/0077_m.jpg",
+    "target": "train/xiaomi_1/part1/0077_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0194",
+    "split": "val",
+    "input": "train/xiaomi_1/part1/0194_m.jpg",
+    "target": "train/xiaomi_1/part1/0194_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0022",
+    "split": "val",
+    "input": "train/xiaomi_1/part1/0022_m.jpg",
+    "target": "train/xiaomi_1/part1/0022_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0069",
+    "split": "val",
+    "input": "train/xiaomi_1/part1/0069_m.jpg",
+    "target": "train/xiaomi_1/part1/0069_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0220",
+    "split": "val",
+    "input": "train/xiaomi_1/part1/0220_m.jpg",
+    "target": "train/xiaomi_1/part1/0220_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0094",
+    "split": "val",
+    "input": "train/xiaomi_1/part1/0094_m.jpg",
+    "target": "train/xiaomi_1/part1/0094_gt.jpg"
+  },
+  {
+    "device": "xiaomi_1",
+    "id": "DCID/train/xiaomi_1/part1/0242",
+    "split": "val",
+    "input": "train/xiaomi_1/part1/0242_m.jpg",
+    "target": "train/xiaomi_1/part1/0242_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0019",
+    "split": "train",
+    "input": "train/p40_1/part1/0019_m.jpg",
+    "target": "train/p40_1/part1/0019_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0065",
+    "split": "train",
+    "input": "train/p40_1/part1/0065_m.jpg",
+    "target": "train/p40_1/part1/0065_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0067",
+    "split": "train",
+    "input": "train/p40_1/part1/0067_m.jpg",
+    "target": "train/p40_1/part1/0067_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0083",
+    "split": "train",
+    "input": "train/p40_1/part1/0083_m.jpg",
+    "target": "train/p40_1/part1/0083_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0091",
+    "split": "train",
+    "input": "train/p40_1/part1/0091_m.jpg",
+    "target": "train/p40_1/part1/0091_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0027",
+    "split": "train",
+    "input": "train/p40_1/part1/0027_m.jpg",
+    "target": "train/p40_1/part1/0027_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0094",
+    "split": "train",
+    "input": "train/p40_1/part1/0094_m.jpg",
+    "target": "train/p40_1/part1/0094_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0018",
+    "split": "train",
+    "input": "train/p40_1/part1/0018_m.jpg",
+    "target": "train/p40_1/part1/0018_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0020",
+    "split": "train",
+    "input": "train/p40_1/part1/0020_m.jpg",
+    "target": "train/p40_1/part1/0020_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0008",
+    "split": "train",
+    "input": "train/p40_1/part1/0008_m.jpg",
+    "target": "train/p40_1/part1/0008_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0021",
+    "split": "train",
+    "input": "train/p40_1/part1/0021_m.jpg",
+    "target": "train/p40_1/part1/0021_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0059",
+    "split": "train",
+    "input": "train/p40_1/part1/0059_m.jpg",
+    "target": "train/p40_1/part1/0059_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0074",
+    "split": "val",
+    "input": "train/p40_1/part1/0074_m.jpg",
+    "target": "train/p40_1/part1/0074_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0036",
+    "split": "val",
+    "input": "train/p40_1/part1/0036_m.jpg",
+    "target": "train/p40_1/part1/0036_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0007",
+    "split": "val",
+    "input": "train/p40_1/part1/0007_m.jpg",
+    "target": "train/p40_1/part1/0007_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0053",
+    "split": "val",
+    "input": "train/p40_1/part1/0053_m.jpg",
+    "target": "train/p40_1/part1/0053_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0026",
+    "split": "val",
+    "input": "train/p40_1/part1/0026_m.jpg",
+    "target": "train/p40_1/part1/0026_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0014",
+    "split": "val",
+    "input": "train/p40_1/part1/0014_m.jpg",
+    "target": "train/p40_1/part1/0014_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0030",
+    "split": "val",
+    "input": "train/p40_1/part1/0030_m.jpg",
+    "target": "train/p40_1/part1/0030_gt.jpg"
+  },
+  {
+    "device": "p40_1",
+    "id": "DCID/train/p40_1/part1/0062",
+    "split": "val",
+    "input": "train/p40_1/part1/0062_m.jpg",
+    "target": "train/p40_1/part1/0062_gt.jpg"
+  }
+]

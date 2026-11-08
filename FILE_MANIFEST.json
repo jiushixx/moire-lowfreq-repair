@@ -12,20 +12,36 @@
     "sha256": "5bdb0d50398310d058f14f3e12a1df1f42f5e253ae6a642fd67d8f9774461a20"
   },
   {
+    "file": "configs/multidevice_train.json",
+    "sha256": "055048273fce06a818cf032e443989c401aa77e0e6b8c4ccd1ce140e6df01916"
+  },
+  {
+    "file": "configs/multidevice_transfer.json",
+    "sha256": "97e7d98e2cff06d951ac4f9bfc6be60e8d01c03c1c2d12bddb9b619640f7ea0f"
+  },
+  {
     "file": "configs/train_repair.json",
     "sha256": "07b7c5870dc8cb0058e935bda20ced944ad74949950abcdacf4a0ab0d5267fc4"
   },
   {
     "file": "docs/EXPERIMENTS.md",
-    "sha256": "241c07ed115a591311f3b629a37bfcd376f4756681bde5d15f60d47dc528c594"
+    "sha256": "b77c777bd281e7ce74ceb50a6484e961513368edcf059da8904a7a2cbade9c5b"
   },
   {
     "file": "docs/GITHUB_UPLOAD.md",
     "sha256": "f74aa367f9b68c38b5f3b51c0f42b366741b26387cc3865499054bb092dd6d70"
   },
   {
+    "file": "docs/MULTIDEVICE_RESULTS.md",
+    "sha256": "18a617e61a82d45851a7d6c25f9bab4ce10f79065f75022e3c6dbc2ea88e7228"
+  },
+  {
     "file": "docs/REPRODUCE.md",
-    "sha256": "e1b0ec6f0a003ef23c1eb3c103fff43c62cae4b0645f770c7882968d5c7f9bcd"
+    "sha256": "08700e14580491dae2a62058c6fde13b2fd4933137e1c09d4d706d1c7564f7bd"
+  },
+  {
+    "file": "docs/项目报告.docx",
+    "sha256": "89658dd463c5bfb987c63634cce012dff181d955f4c49d6f61e2d728aeabb85c"
   },
   {
     "file": "experiments/controls/global_calibration.ipynb",
@@ -56,12 +72,16 @@
     "sha256": "02b93d563f0368447ec330fbdcf0b7905bdebf589ab5bd93c5fe68f7142031a2"
   },
   {
+    "file": "models/dcid_balanced300.pt",
+    "sha256": "7371a6991aef9745102cc9abcfd3c7fab4ea5594e5bc2613c872979ee5662b2a"
+  },
+  {
     "file": "models/frozen_protocol.json",
     "sha256": "b9734a31e1b6806913af9f8790b80b62cf55122737ab5e7e1be38b637add3779"
   },
   {
     "file": "models/README.md",
-    "sha256": "ec0ee421faf03437ba2d6c399b55f20346793cbb7537461a727eaef9a66994fc"
+    "sha256": "d779fb956d0e21f0f13faaf26d614ba5917c909cef3fbbe860bf1fcd27a97f92"
   },
   {
     "file": "notebooks/01_frozen_evaluation.ipynb",
@@ -72,12 +92,88 @@
     "sha256": "6e1e22ed54b121260cc80fc673a8ab66a81cfb43ae6b92ad1cff33a0822051b6"
   },
   {
+    "file": "notebooks/03_cross_device_transfer.ipynb",
+    "sha256": "17bcef2e28dfb2997502160e3048cf614f61fc9c009f911c13537126f11902f1"
+  },
+  {
+    "file": "notebooks/04_multidevice_training.ipynb",
+    "sha256": "48d9247989b0e462caf1a57eafc266776f804cbde93db4f5be7366c27a080a0a"
+  },
+  {
     "file": "pyproject.toml",
     "sha256": "e37c05f94f98413265b917a0cf377117f1a1d92a4b840e7aaf2086764cd0996c"
   },
   {
     "file": "README.md",
-    "sha256": "5e823181abb50a0d0c93ff4a08d44e78567ef2c7dcb714d49bc790ebafb2274e"
+    "sha256": "538681a780bb48473831790ad0d59a7095215d3f6a69b485f5858193f3d9d9d3"
+  },
+  {
+    "file": "results/balanced/checks.json",
+    "sha256": "182f57445a8d8d93d819bfdadb3f01722fa23bace4405d3ace20c28630ab0ab0"
+  },
+  {
+    "file": "results/balanced/code_validation.json",
+    "sha256": "c4fe817971f3ed71af217c3fb0ad96cfbc1425a75f95f027a7ec1cd0a2db6468"
+  },
+  {
+    "file": "results/balanced/download_plan.json",
+    "sha256": "031e76f5b40f5fd5e412cd35a559fb7ac69693171fbc91fab2efd06ebb1204c9"
+  },
+  {
+    "file": "results/balanced/history.csv",
+    "sha256": "0ddd56bcf107089ecb76247771511cd208e99b253b015bb60b18f7487717da13"
+  },
+  {
+    "file": "results/balanced/iphone_1/DCID_download_plan.json",
+    "sha256": "d0a22d4028b80d77609e6e0d378b96c057b8991345e9da812be0fb16efee0b76"
+  },
+  {
+    "file": "results/balanced/iphone_1/test_manifest.csv",
+    "sha256": "a66697f8c8dc035665d610976c3f22c649bf89fc6dfdef7d3825766ca08f2e40"
+  },
+  {
+    "file": "results/balanced/manifest.csv",
+    "sha256": "876e4b71cf0bd0adc77ed733cac1ccb4c1dba5f78c61f70736f03a858a48d50a"
+  },
+  {
+    "file": "results/balanced/p40_1/DCID_download_plan.json",
+    "sha256": "e99de742c7b8e621cfb269852afd27434e3b5a3341bdf2a71b601bd894949988"
+  },
+  {
+    "file": "results/balanced/p40_1/test_manifest.csv",
+    "sha256": "2aa69698dd1d72c118760d26e75e5d60785e22cc07644c896902c1e23bfd294f"
+  },
+  {
+    "file": "results/balanced/paired_comparisons.csv",
+    "sha256": "10c9d4f645073ed3733ceaf870e3eb728c906560fb9e0bd49c53201d169df80a"
+  },
+  {
+    "file": "results/balanced/protocol.json",
+    "sha256": "9500cfda544b32f344647f01be1553323d8a8fc452fab7dd2c59af72cefe3c47"
+  },
+  {
+    "file": "results/balanced/selection.json",
+    "sha256": "70190313d29c78dc181f19953384aa90e7ebb7ded8be94391f2820e596fe6ada"
+  },
+  {
+    "file": "results/balanced/test_per_image.csv",
+    "sha256": "939d13087c2b214bdf9636527f27d040279b43e72456c1ec9d5d9c09bbbf0377"
+  },
+  {
+    "file": "results/balanced/test_summary.csv",
+    "sha256": "86275814b04fa7af78ea5bbce9e87ae56a44e71adba65390c4ef1c98149f75c4"
+  },
+  {
+    "file": "results/balanced/validation_per_image.csv",
+    "sha256": "db44d921128508fdfe8277cd16688f07622d2cdafed343edbbc91e483e580025"
+  },
+  {
+    "file": "results/balanced/xiaomi_1/DCID_download_plan.json",
+    "sha256": "5cba438d8eef1ee7d7958818ac6327712e253f8a97a715c0830f9c7e00334b92"
+  },
+  {
+    "file": "results/balanced/xiaomi_1/test_manifest.csv",
+    "sha256": "f34c57ad2aba44941283a3e987345c7eaa2fcbd9b8afd124c4166e7c43b30cd5"
   },
   {
     "file": "results/code_validation.json",
@@ -168,6 +264,26 @@
     "sha256": "50e8d7396340924dd8068eaf1c7fb1e46e46e908f35920998a798a5944be0014"
   },
   {
+    "file": "results/transfer/paired_comparisons.csv",
+    "sha256": "3d535768edce4ae40bccdf95be9f6342d847531fc14b95877646ba86b542880f"
+  },
+  {
+    "file": "results/transfer/per_image.csv",
+    "sha256": "d0d352679843df8c4f1484570a50b548ed5e60a7abd52709d7708c51d7805377"
+  },
+  {
+    "file": "results/transfer/run_status.json",
+    "sha256": "263daadc31cab62eb859192197d00552e2cdba4d71809c626507935b57d7def6"
+  },
+  {
+    "file": "results/transfer/summary_by_device.csv",
+    "sha256": "62c269e3fc98ae51f8c472bcb42ad589296a2ec16460bc6968ba2266b05a4de8"
+  },
+  {
+    "file": "results/transfer/逐图增益.csv",
+    "sha256": "0823d02e8caea5f8da997b3fa567a2ac41534ca22afc84d5e0f6ea96fd98a1c3"
+  },
+  {
     "file": "scripts/audit_manifest.py",
     "sha256": "b409f904f711186dc0d2e87382e549c6292d59c214877a01757806f939ecb889"
   },
@@ -178,6 +294,14 @@
   {
     "file": "scripts/run.py",
     "sha256": "bb24d3d678c91975884490073fc015efaabc132b8171465c357baaba1167f761"
+  },
+  {
+    "file": "scripts/run_balanced.py",
+    "sha256": "53f332549aeee097571ba02a1c21e47144dbbd3f1b54ff2caf1c71f3650dd340"
+  },
+  {
+    "file": "scripts/run_transfer.py",
+    "sha256": "92609d854fcb1f1b3d37a0e504e3d7f0e4240df368de34ac5cbccf9c3b19b73e"
   },
   {
     "file": "scripts/train_source_fusion.py",
@@ -204,6 +328,10 @@
     "sha256": "67709357c4c46a366812d4d141f0239097fadaa2903fda80f64d40f42a785f1d"
   },
   {
+    "file": "src/moire_project/multidevice.py",
+    "sha256": "3783fa401f669ff5e903b34329af446ddeeadcba291945ed124aafd6d86a0966"
+  },
+  {
     "file": "src/moire_project/repair.py",
     "sha256": "4e6d2fd38ee17642b13c694f722e318e49f2a0273edaa047a53f956dcdb9ed28"
   },
@@ -214,6 +342,10 @@
   {
     "file": "src/moire_project/spatial.py",
     "sha256": "38baaebed02c666d53ed307e153aed9578f941be93faccb55e9bea00fd079632"
+  },
+  {
+    "file": "src/moire_project/transfer.py",
+    "sha256": "5694866c2014493c084f3343cc216a2d3a9f32171b8c9d071e425d987ffbd15c"
   },
   {
     "file": "tests/test_models.py",

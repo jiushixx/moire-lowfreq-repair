@@ -1,0 +1,89 @@
+{
+  "repo": "Mrduckk/DCID",
+  "revision": "51c674aa3f71c4cbbddb5cfcba9fbe3536eb0722",
+  "subdir": "test/p40_1",
+  "seed": 20261108,
+  "bytes": 74287070,
+  "pairs": [
+    {
+      "input": "test/p40_1/0129_m.jpg",
+      "target": "test/p40_1/0129_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0134_m.jpg",
+      "target": "test/p40_1/0134_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0082_m.jpg",
+      "target": "test/p40_1/0082_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0060_m.jpg",
+      "target": "test/p40_1/0060_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0130_m.jpg",
+      "target": "test/p40_1/0130_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0166_m.jpg",
+      "target": "test/p40_1/0166_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0068_m.jpg",
+      "target": "test/p40_1/0068_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0023_m.jpg",
+      "target": "test/p40_1/0023_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0154_m.jpg",
+      "target": "test/p40_1/0154_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0123_m.jpg",
+      "target": "test/p40_1/0123_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0092_m.jpg",
+      "target": "test/p40_1/0092_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0015_m.jpg",
+      "target": "test/p40_1/0015_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0035_m.jpg",
+      "target": "test/p40_1/0035_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0062_m.jpg",
+      "target": "test/p40_1/0062_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0151_m.jpg",
+      "target": "test/p40_1/0151_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0017_m.jpg",
+      "target": "test/p40_1/0017_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0055_m.jpg",
+      "target": "test/p40_1/0055_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0173_m.jpg",
+      "target": "test/p40_1/0173_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0073_m.jpg",
+      "target": "test/p40_1/0073_gt.jpg"
+    },
+    {
+      "input": "test/p40_1/0195_m.jpg",
+      "target": "test/p40_1/0195_gt.jpg"
+    }
+  ]
+}

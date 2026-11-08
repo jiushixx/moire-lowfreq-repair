@@ -1,0 +1,8 @@
+{
+  "FROZEN_BUNDLE": null,
+  "WEIGHT": null,
+  "STEPS": 500,
+  "EVAL_EVERY": 100,
+  "SEED": 20261108,
+  "LR": 0.0003
+}

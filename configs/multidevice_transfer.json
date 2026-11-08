@@ -1,0 +1,10 @@
+{
+  "FROZEN_BUNDLE": null,
+  "WEIGHT": null,
+  "DEVICE_PREFIXES": [
+    "xiaomi",
+    "p40"
+  ],
+  "N_IMAGES": 20,
+  "SEED": 20261108
+}
