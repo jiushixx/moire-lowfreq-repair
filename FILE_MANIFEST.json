@@ -17,15 +17,15 @@
   },
   {
     "file": "docs/EXPERIMENTS.md",
-    "sha256": "1b88e0136272584044b8e00774c244316c3fe7f629f5f8d14d5f9bbcb259486f"
+    "sha256": "241c07ed115a591311f3b629a37bfcd376f4756681bde5d15f60d47dc528c594"
   },
   {
     "file": "docs/GITHUB_UPLOAD.md",
-    "sha256": "252aedd2f0873c75ca6b098f227f6e7dc2d1d02d4179e7c85a0fa79a058c4d3c"
+    "sha256": "f74aa367f9b68c38b5f3b51c0f42b366741b26387cc3865499054bb092dd6d70"
   },
   {
     "file": "docs/REPRODUCE.md",
-    "sha256": "e19b4aebc2fb55cb26bfb7aec892a1eda91ab1ed13dff906310a5e76825a5ee2"
+    "sha256": "e1b0ec6f0a003ef23c1eb3c103fff43c62cae4b0645f770c7882968d5c7f9bcd"
   },
   {
     "file": "experiments/controls/global_calibration.ipynb",
@@ -61,7 +61,7 @@
   },
   {
     "file": "models/README.md",
-    "sha256": "4ac150d934f2b25b7aee2524b42ac65e2a3ecbf8ca26587a98151f0832f2b806"
+    "sha256": "ec0ee421faf03437ba2d6c399b55f20346793cbb7537461a727eaef9a66994fc"
   },
   {
     "file": "notebooks/01_frozen_evaluation.ipynb",
@@ -77,7 +77,7 @@
   },
   {
     "file": "README.md",
-    "sha256": "61cba64c3a7483bf39ade88d726d9a6aa362e21770c322f86ae043f058b3262a"
+    "sha256": "5e823181abb50a0d0c93ff4a08d44e78567ef2c7dcb714d49bc790ebafb2274e"
   },
   {
     "file": "results/code_validation.json",
@@ -221,6 +221,6 @@
   },
   {
     "file": "THIRD_PARTY.md",
-    "sha256": "9c559c6cdf229268b8bf8aa93730732cd86a66888a1f62a894310fba63a789a4"
+    "sha256": "6e7a62dcda76f1d39176beef5ea48e34e1e9e8405faae660fb68135e59243fbf"
   }
 ]
